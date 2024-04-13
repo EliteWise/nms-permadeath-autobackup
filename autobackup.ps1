@@ -30,7 +30,7 @@ $notRunningCount = 0
 # Save every 5 minutes
 while ($true) {
     if (Is-GameRunning -processName $gameProcessName) {
-        Write-Host "Game is running. Performing backup..."
+        Write-Host "NMS is running. Performing backup..."
         # Start Saving
         Copy-Folder -from $sourceFolder\* -to $destinationFolder
         $backupFolderItem = Get-Item -Path $destinationFolder
