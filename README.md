@@ -27,6 +27,8 @@ This PowerShell script automatically backs up No Man's Sky (NMS) game data every
    .\autobackup.ps1
    ```
 
+![Preview](nms-script-preview.png)
+
 ## Contribution
 
 Contributions are welcome! If you have suggestions or improvements, feel free to open an issue or submit a pull request.
